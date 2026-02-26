@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playbook-P-INT-T2-S1.5</title>
+    <title>Playbook-P-INT-T2-S2</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <h1><span class="book-icon">💡</span> <strong>Playbook: Proyecto Integrador T2 - Sesión 1.5</strong></h1>
+        <h1><span class="book-icon">💡</span> <strong>Playbook: Proyecto Integrador T2 - Sesión 2</strong></h1>
         <div class="header-widgets">
             <div class="timer-container">
                 <span id="global-timer">⏱️ 40:00</span>
@@ -28,7 +27,6 @@
             </div>
         </div>
     </header>
-
     <div class="main-container">
         <aside class="activity-list">
             <h2>Actividades</h2>
@@ -38,338 +36,281 @@
                 <li><a href="#activity-2">2</a></li>
                 <li><a href="#activity-3">3</a></li>
                 <li><a href="#activity-4">4</a></li>
-                <li><a href="#activity-5">5</a></li>
             </ul>
         </aside>
-
         <main class="content">
             <div class="progress-bar">
                 <div class="progress"></div>
             </div>
-
             <!-- ACTIVIDAD 0: DE UN VISTAZO -->
             <div class="activity-card" id="activity-0">
                 <h2><span class="book-icon">📝</span> De un Vistazo: Comando Central</h2>
-                <p class="overview-subtitle">Sesión "Booster": Stress Test y Manejo de Errores para el Sistema Robótico.</p>
+                <p class="overview-subtitle">Sesión "Cointeligencia y Orquestación": Construyendo el Motor de IA del Proyecto.</p>
                 
                 <div class="command-section">
                     <h3>🎯 Objetivo de Aprendizaje</h3>
                     <div class="objective-box">
-                        <p><strong>Los estudiantes podrán:</strong> Identificar posibles puntos de fallo en sus "System Blueprints" (Stress Test) y diseñar lógica de programación (Manejo de Errores) para que el robot reaccione ante imprevistos.</p>
+                        <p><strong>Los estudiantes podrán:</strong> Desarrollar y refinar la arquitectura de prompts y lógica de un agente de IA utilizando metodologías avanzadas (RCTFA y CoT) para resolver el desafío técnico de su proyecto integrador.</p>
                     </div>
                 </div>
-
                 <div class="command-section xolo-prompt">
                     <h3>🤖 Prompt de Referencia para XOLO (Solo para Maestro)</h3>
                     <div class="prompt-box">
                         <div class="prompt-header">
-                            <span class="prompt-label">⚠️ NOTA: XOLO actúa como Ingeniero de Fiabilidad automáticamente. Usar solo en emergencia:</span>
+                            <span class="prompt-label">⚠️ NOTA: XOLO actúa como Arquitecto de IA automáticamente. Usar solo en emergencia:</span>
                             <button class="copy-btn" onclick="copyPrompt('main-prompt')">
                                 <i class="fas fa-copy"></i> Copiar
                             </button>
                         </div>
-                        <pre id="main-prompt">Actúa como Ingeniero de Fiabilidad experto en robótica. Revisa los pasos de mi robot (Cutebot + AI Lens) y ayúdame a identificar posibles fallos (Red Team) y cómo programar la solución (ej: timeouts, alertas sonoras, reintentos). Sé crítico pero constructivo.</pre>
+                        <pre id="main-prompt">Actúa como un Arquitecto de IA Senior. Ayúdame a auditar la estructura de este prompt complejo. Revisa la lógica de razonamiento (Chain of Thought), la claridad de las restricciones y sugiere mejoras para evitar alucinaciones. Asegúrate de que el output sea consistente con el formato [Insertar Formato Deseado].</pre>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>⚡ Puntos Esenciales de la Misión</h3>
                     <div class="essentials-grid">
                         <div class="essential-card">
-                            <div class="essential-icon">🛡️</div>
+                            <div class="essential-icon">🧠</div>
                             <h4>Concepto Clave</h4>
-                            <p>Planificación de Fallos (Error Handling): Diseñar para cuando las cosas salen mal, no solo para el éxito.</p>
+                            <p>Cointeligencia: El uso estratégico de la IA para potenciar la precisión técnica en la resolución de problemas complejos.</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">🔧</div>
                             <h4>Habilidad Técnica</h4>
-                            <p>Lógica condicional para excepciones (If error -> Then recover).</p>
+                            <p>Prompt Engineering avanzado: Aplicación de RCTFA, Chain of Thought (CoT) y lógica de orquestación.</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">🚩</div>
-                            <h4>Dinámica: Red Team</h4>
-                            <p>Simular el "Equipo Rojo" para atacar los propios planos y encontrar debilidades.</p>
+                            <h4>Táctica: Taming the Genie</h4>
+                            <p>Controlar la salida de la IA mediante restricciones lógicas y pasos de razonamiento secuencial.</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">💬</div>
                             <h4>Interacción con XOLO</h4>
-                            <p>XOLO actúa como "Consultor de Fiabilidad". Cuestiona los planos de los alumnos para hacerlos robustos.</p>
+                            <p>XOLO actúa como "Auditor de Sistemas", verificando la robustez de los prompts y sugiriendo flujos lógicos.</p>
                         </div>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>📦 Checklist de Materiales</h3>
                     <div class="materials-checklist">
-                        <label><input type="checkbox"> Proyector/pantalla + presentación (Diapositivas 1-5)</label>
+                        <label><input type="checkbox"> Proyector/pantalla + presentación (Diapositivas 1-6)</label>
                         <label><input type="checkbox"> Internet estable + Gnius Space con XOLO activo</label>
-                        <label><input type="checkbox"> "System Blueprints" de la Sesión 1 (Digital o Impreso)</label>
-                        <label><input type="checkbox"> Plantillas actualizadas "Manejo de Errores"</label>
+                        <label><input type="checkbox"> Acceso a modelos de lenguaje (ChatGPT, Claude o Perplexity)</label>
+                        <label><input type="checkbox"> "Vibe Blueprint" y objetivos de proyecto generados en la Sesión 1</label>
+                        <label><input type="checkbox"> Guía técnica de Prompt Engineering (RCTFA + CoT)</label>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>🗓️ Secuencia de la Misión (40 min)</h3>
                     <div class="timeline">
                         <div class="timeline-item">
                             <div class="timeline-dot">1</div>
                             <div class="timeline-content">
-                                <strong>Intro: Plan Ideal vs Realista</strong>
+                                <strong>Briefing: Arquitectos de la IA</strong>
                                 <span class="time-badge">5 min</span>
-                                <p>Introducción al diseño robusto y mentalidad de ingeniero.</p>
+                                <p>Introducción a la cointeligencia y definición del motor lógico del proyecto.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot">2</div>
                             <div class="timeline-content">
-                                <strong>Simulacro Red Team (Con XOLO)</strong>
+                                <strong>Táctica 1: Vibe-to-Prompt</strong>
                                 <span class="time-badge">15 min</span>
-                                <p>XOLO cuestiona los diseños: "¿Qué pasa si...?"</p>
+                                <p>Construcción del sistema de prompts usando Vibe Coding y RCTFA.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot">3</div>
                             <div class="timeline-content">
-                                <strong>Brain Spark: Blueprint Robusto</strong>
+                                <strong>Táctica 2: Taming the Genie</strong>
                                 <span class="time-badge">15 min</span>
-                                <p>Documentar las soluciones y planes de contingencia.</p>
+                                <p>Refinamiento técnico, debugging de lógica y aplicación de CoT con XOLO.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot">4</div>
                             <div class="timeline-content">
-                                <strong>Gnius STORM - Cierre</strong>
-                                <span class="time-badge">3 min</span>
-                                <p>Reflexión sobre la fiabilidad del sistema.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot">5</div>
-                            <div class="timeline-content">
-                                <strong>Guardado de Planos</strong>
-                                <span class="time-badge">2 min</span>
-                                <p>Asegurar entregables para la fase de construcción.</p>
+                                <strong>Cierre y Registro de Sistema</strong>
+                                <span class="time-badge">5 min</span>
+                                <p>Guardado de los prompts finales y preparación del pitch técnico.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>🚨 Resolución Rápida de Problemas</h3>
                     <div class="troubleshooting-list">
                         <ul>
-                            <li><strong>Si XOLO no sugiere fallos:</strong> Pide al alumno ser más específico: "Xolo, mi robot debe agarrar un cubo, ¿qué puede fallar?".</li>
-                            <li><strong>Si los alumnos se frustran con los fallos:</strong> Reenmarca el problema: "Mejor encontrar el error hoy en papel que mañana en el robot".</li>
+                            <li><strong>Si la IA alucina:</strong> Revisar las restricciones del prompt y añadir una instrucción de "Pasos de Razonamiento" (CoT).</li>
+                            <li><strong>Si XOLO da respuestas genéricas:</strong> Proporcionar el contexto específico del proyecto (RCTFA completo) antes de pedir la auditoría.</li>
+                            <li><strong>Si hay bloqueo creativo:</strong> Usar el "Vibe Blueprint" de la sesión anterior para reconectar con el propósito del sistema.</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- ACTIVIDAD 1: INTRO A LA MISIÓN -->
+            <!-- ACTIVIDAD 1: BRIEFING -->
             <div class="activity-card" id="activity-1">
                 <div class="activity-header">
-                    <h2>🚀 Actividad 1: Intro - Del Plan Ideal al Realista</h2>
+                    <h2>🚀 Actividad 1: Briefing - Arquitectos de la IA</h2>
                     <div class="activity-timer">
                         <span class="activity-duration">⏱️ 5:00</span>
                         <button class="timer-start-btn" data-duration="300">Iniciar</button>
                     </div>
                 </div>
-
                 <div class="roles-section">
                     <div class="role-card role-teacher">
                         <h4>👨‍🏫 Rol del Maestro</h4>
                         <ul>
-                            <li>Explicar que hoy es una sesión "Booster".</li>
-                            <li>Diferenciar entre "Camino Feliz" (todo sale bien) y "Mundo Real" (fallos).</li>
+                            <li>Presentar la sesión como la fase de construcción de la lógica central del proyecto.</li>
+                            <li>Explicar el concepto de "Cointeligencia": Ellos diseñan la estrategia lógica, la IA procesa y refina los resultados.</li>
                             <li>Proyectar Diapositiva 1.</li>
                         </ul>
                     </div>
                     <div class="role-card role-xolo">
                         <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">✅ XOLO LISTO</p>
+                        <p class="xolo-status">⏸️ XOLO EN ESPERA</p>
                         <ul>
-                            <li>Preparado con su rol de Ingeniero de Fiabilidad.</li>
-                            <li>Conoce el contexto de los proyectos de los alumnos.</li>
+                            <li>Disponible para clarificar conceptos de RCTFA o CoT.</li>
                         </ul>
                     </div>
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Revisar su Blueprint de la sesión anterior.</li>
-                            <li>Entender que hoy "atacarán" su propio diseño.</li>
+                            <li>Tener a mano su "Vibe Blueprint" de la Sesión 1.</li>
+                            <li>Preparar su entorno de trabajo digital (herramientas de IA y documentos).</li>
                         </ul>
                     </div>
                 </div>
-
                 <div class="slide-reference">
-                    <h4>📊 Diapositiva 1: Objetivos</h4>
+                    <h4>📊 Diapositiva 1: De la Idea a la Lógica</h4>
                     <div class="slide-content">
-                        <p><strong>🎯 Misión de Hoy:</strong></p>
-                        <p class="highlight-text">Convertir un plan "optimista" en un plan "a prueba de balas".</p>
-                        <p><strong>¿Por qué?</strong> Porque en la robótica real, los sensores fallan, la luz cambia y las baterías se agotan. ¡Debemos estar listos!</p>
+                        <p><strong>🎯 Misión:</strong> Construir el cerebro del proyecto.</p>
+                        <p class="highlight-text">"Ustedes son los directores de orquesta; la IA es su sección de cuerdas afinada. ¡Es hora de programar con lenguaje natural!"</p>
                     </div>
                 </div>
-            </div>
-
-            <!-- ACTIVIDAD 2: SIMULACRO RED TEAM -->
-            <div class="activity-card" id="activity-2">
-                <div class="activity-header">
-                    <h2>🧠 Actividad 2: Simulacro 'Red Team' con XOLO</h2>
-                    <div class="activity-timer">
-                        <span class="activity-duration">⏱️ 15:00</span>
-                        <button class="timer-start-btn" data-duration="900">Iniciar</button>
-                    </div>
-                </div>
-
-                <div class="roles-section">
-                    <div class="role-card role-teacher">
-                        <h4>👨‍🏫 Rol del Maestro</h4>
-                        <ul>
-                            <li>Indicar: "Abran el chat con XOLO. Díganle una acción de su robot y dejen que él encuentre los problemas".</li>
-                            <li>Monitorear que los alumnos no ignoren los fallos sugeridos.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-xolo">
-                        <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">🔥 MODO RED TEAM</p>
-                        <ul>
-                            <li>Cuestiona activamente: "¿Y si la cámara no ve el color?", "¿Y si el servo se atasca?".</li>
-                            <li>Sugiere soluciones técnicas: Timeouts, reintentos, señales de alerta.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-student">
-                        <h4>👦 Rol del Alumno</h4>
-                        <ul>
-                            <li>Interactuar con XOLO describiendo pasos de su robot.</li>
-                            <li>Responder a los "¿Qué pasa si...?" de la IA.</li>
-                            <li>Anotar los posibles fallos descubiertos.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="slide-reference">
-                    <h4>📊 Diapositiva 2 y 3: Red Team</h4>
-                    <div class="slide-content">
-                        <p><strong>💬 Reto con XOLO:</strong></p>
-                        <div class="prompt-box">
-                            <pre>Dile a XOLO: "Mi robot tiene que [acción]. ¿Qué podría salir mal?"</pre>
-                        </div>
-                        <p class="highlight-text" style="margin-top: 1rem;">🔍 Ejemplo: "Mi brazo agarra el cubo." -> 🤖 Xolo: "¿Qué pasa si el cubo está muy lejos? ¿Debe el robot avanzar o rendirse?"</p>
-                    </div>
-                </div>
-
                 <div class="optional-script">
                     <button class="collapsible-button">📖 Ver guion detallado</button>
                     <div class="collapsible-content">
-                        <p class="dialogue assistant">"Es hora del ataque. XOLO será su 'Red Team'. Abran el chat y cuéntenle qué debe hacer su robot. Él va a intentar encontrar huecos en su lógica. No se asusten, ¡es mejor que XOLO encuentre el error hoy en la pantalla, a que el robot falle mañana en la competencia!"</p>
+                        <p class="dialogue assistant">"¡Bienvenidos, arquitectos! Hoy transformamos su visión en un sistema funcional. No vamos a picar código tradicional; vamos a usar Cointeligencia para diseñar un motor de IA que resuelva su problema. El genio está listo, pero solo hará lo que ustedes sepan dirigir con precisión técnica."</p>
                     </div>
                 </div>
             </div>
 
-            <!-- ACTIVIDAD 3: BRAIN SPARK - BLUEPRINT ROBUSTO -->
-            <div class="activity-card" id="activity-3">
+            <!-- ACTIVIDAD 2: VIBE-TO-PROMPT -->
+            <div class="activity-card" id="activity-2">
                 <div class="activity-header">
-                    <h2>💡 Actividad 3: Brain Spark - El Blueprint Robusto</h2>
+                    <h2>🏗️ Actividad 2: Táctica 1 - Vibe-to-Prompt</h2>
                     <div class="activity-timer">
                         <span class="activity-duration">⏱️ 15:00</span>
                         <button class="timer-start-btn" data-duration="900">Iniciar</button>
                     </div>
                 </div>
-
                 <div class="roles-section">
                     <div class="role-card role-teacher">
                         <h4>👨‍🏫 Rol del Maestro</h4>
                         <ul>
-                            <li>Pedir que llenen la sección "Manejo de Errores" en sus hojas.</li>
-                            <li>Guiar el formato: <strong>Si pasa [Error] -> Entonces hacer [Acción]</strong>.</li>
+                            <li>Supervisar la creación del prompt maestro usando la estructura RCTFA.</li>
+                            <li>Fomentar el "Vibe Coding": describir la intención y el tono antes de la estructura técnica.</li>
+                            <li>Asegurar que el prompt esté alineado con los objetivos del proyecto.</li>
                         </ul>
                     </div>
                     <div class="role-card role-xolo">
                         <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">✅ CONSULTOR TÉCNICO</p>
+                        <p class="xolo-status">✅ CONSULTOR DE PROMPTING</p>
                         <ul>
-                            <li>Ayuda a redactar la lógica de recuperación.</li>
-                            <li>Ejemplo: "Si sensor < 5cm por 10 seg, entonces retroceder y girar".</li>
+                            <li>Ayuda a estructurar secciones: "¿Cómo defino mejor el ROL en mi RCTFA?", "¿Qué CONTEXTO me falta?".</li>
                         </ul>
                     </div>
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Documentar las soluciones a los fallos encontrados.</li>
-                            <li>Actualizar el Blueprint para que incluya planes de contingencia.</li>
+                            <li>Escribir el primer borrador del prompt principal (System Prompt) de su herramienta.</li>
+                            <li>Iterar el prompt basándose en los resultados obtenidos de la IA.</li>
+                            <li>Asegurar que el formato de salida (Output) sea útil para el proyecto final.</li>
                         </ul>
                     </div>
                 </div>
-
                 <div class="slide-reference">
-                    <h4>📊 Diapositiva 4: Documentación</h4>
+                    <h4>📊 Diapositiva 2: Vibe-to-Prompt</h4>
                     <div class="slide-content">
-                        <p><strong>📝 Nueva Sección: Manejo de Errores</strong></p>
-                        <ul>
-                            <li><strong>Trigger (Gatillo):</strong> ¿Cuál es el fallo? (Ej. No veo la tarjeta roja).</li>
-                            <li><strong>Acción de Recuperación:</strong> ¿Qué hace el robot? (Ej. Girar 360° buscando, o encender luz roja de error).</li>
-                        </ul>
+                        <p><strong>🛠️ Estructura RCTFA:</strong></p>
+                        <div class="prompt-box">
+                            <pre>Rol: [Quién es la IA]
+Contexto: [Qué está pasando]
+Tarea: [Qué debe hacer exactamente]
+Formato: [Cómo debe entregar la respuesta]
+Audiencia: [Para quién es el resultado]</pre>
+                        </div>
+                        <p class="highlight-text">Recuerden: El "Vibe" define el alma de su sistema.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- ACTIVIDAD 4: CIERRE Y REFLEXIÓN -->
+            <!-- ACTIVIDAD 3: TAMING THE GENIE -->
+            <div class="activity-card" id="activity-3">
+                <div class="activity-header">
+                    <h2>🧠 Actividad 3: Táctica 2 - Taming the Genie</h2>
+                    <div class="activity-timer">
+                        <span class="activity-duration">⏱️ 15:00</span>
+                        <button class="timer-start-btn" data-duration="900">Iniciar</button>
+                    </div>
+                </div>
+                <div class="roles-section">
+                    <div class="role-card role-teacher">
+                        <h4>👨‍🏫 Rol del Maestro</h4>
+                        <ul>
+                            <li>Introducir Chain of Thought (CoT): Pedir a la IA que "piense paso a paso".</li>
+                            <li>Guiar a los alumnos en el uso de XOLO para realizar una "Auditoría de Lógica".</li>
+                            <li>Monitorear la eliminación de ambigüedades en los prompts.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card role-xolo">
+                        <h4>🤖 Rol de XOLO</h4>
+                        <p class="xolo-status">✅ AUDITOR DE SISTEMAS</p>
+                        <ul>
+                            <li>Identifica posibles fallos: "Este prompt podría causar alucinaciones en esta parte".</li>
+                            <li>Sugiere pasos lógicos (CoT): "Pídele que primero analice [X] y luego ejecute [Y]".</li>
+                            <li>Optimiza la eficiencia del token y la claridad del comando.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card role-student">
+                        <h4>👦 Rol del Alumno</h4>
+                        <ul>
+                            <li>Someter su prompt a XOLO para recibir feedback técnico.</li>
+                            <li>Implementar una secuencia de razonamiento paso a paso en su prompt.</li>
+                            <li>Realizar un "Stress Test": probar el prompt con casos difíciles y ajustar.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slide-reference">
+                    <h4>📊 Diapositiva 3 y 4: Taming the Genie</h4>
+                    <div class="slide-content">
+                        <p><strong>💬 Auditoría Técnica con XOLO:</strong></p>
+                        <div class="prompt-box">
+                            <pre>Pregunta a XOLO: "Analiza este prompt. ¿Qué instrucciones adicionales o restricciones debo añadir para que la IA no se desvíe de la tarea y siempre razone paso a paso?"</pre>
+                        </div>
+                        <p class="highlight-text">¡No dejes que el genio adivine, enséñale a pensar paso a paso!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACTIVIDAD 4: CIERRE -->
             <div class="activity-card" id="activity-4">
                 <div class="activity-header">
-                    <h2>⚡ Actividad 4: Gnius STORM - Cierre</h2>
+                    <h2>✅ Actividad 4: Cierre y Registro de Sistema</h2>
                     <div class="activity-timer">
-                        <span class="activity-duration">⏱️ 3:00</span>
-                        <button class="timer-start-btn" data-duration="180">Iniciar</button>
+                        <span class="activity-duration">⏱️ 5:00</span>
+                        <button class="timer-start-btn" data-duration="300">Iniciar</button>
                     </div>
                 </div>
-
                 <div class="roles-section">
                     <div class="role-card role-teacher">
                         <h4>👨‍🏫 Rol del Maestro</h4>
                         <ul>
-                            <li>Felicitar a los equipos por sus sistemas "Antifragiles".</li>
-                            <li>Reflexión rápida sobre la importancia de prever errores.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-student">
-                        <h4>👦 Rol del Alumno</h4>
-                        <ul>
-                            <li>Compartir con otra pareja un fallo crítico que descubrieron y cómo planean solucionarlo.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="slide-reference">
-                    <h4>📊 Diapositiva 5: Think-Pair-Share</h4>
-                    <div class="slide-content tps-structure">
-                        <div class="tps-phase">
-                            <h4>🤔 THINK</h4>
-                            <p>¿Cuál fue el fallo más peligroso que XOLO encontró en mi diseño?</p>
-                        </div>
-                        <div class="tps-phase">
-                            <h4>💬 SHARE</h4>
-                            <p>Cuéntale a tu compañero: "Mi robot iba a fallar si [condición], pero ahora va a [solución]."</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ACTIVIDAD 5: GUARDADO Y EVIDENCIAS -->
-            <div class="activity-card" id="activity-5">
-                <div class="activity-header">
-                    <h2>✅ Actividad 5: Guardado de Planos</h2>
-                    <div class="activity-timer">
-                        <span class="activity-duration">⏱️ 2:00</span>
-                        <button class="timer-start-btn" data-duration="120">Iniciar</button>
-                    </div>
-                </div>
-
-                <div class="roles-section">
-                    <div class="role-card role-teacher">
-                        <h4>👨‍🏫 Rol del Maestro</h4>
-                        <ul>
-                            <li>Asegurar que los Blueprints físicos o digitales estén guardados.</li>
-                            <li>Confirmar que están listos para la fase de construcción (siguiente sesión).</li>
+                            <li>Asegurar que los alumnos guarden sus prompts finales documentados.</li>
+                            <li>Explicar que este "Motor Lógico" será el corazón de su presentación final.</li>
+                            <li>Cerrar con una reflexión sobre la precisión vs. la intuición.</li>
                         </ul>
                     </div>
                     <div class="role-card role-xolo">
@@ -379,25 +320,35 @@
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Guardar su "Blueprint Robusto".</li>
-                            <li>Cerrar sesión en Gnius Space.</li>
+                            <li>Copiar y guardar su "Prompt Blueprint" final y capturas de los mejores resultados.</li>
+                            <li>Subir la evidencia del sistema refinado según las instrucciones.</li>
+                            <li>Reflexión: ¿Cómo cambió la respuesta de la IA al añadirle estructura lógica?</li>
                         </ul>
                     </div>
                 </div>
-
+                <div class="slide-reference">
+                    <h4>📊 Diapositiva 5: Checkpoint Lógico</h4>
+                    <div class="slide-content tps-structure">
+                        <div class="tps-phase">
+                            <h4>🤔 THINK</h4>
+                            <p>¿Qué fue lo más difícil de 'domar' en la lógica de la IA hoy?</p>
+                        </div>
+                        <div class="tps-phase">
+                            <h4>💬 SHARE</h4>
+                            <p>Muestra tu prompt final a otro equipo y explica qué restricción fue la más efectiva.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="slide-reference">
                     <h4>📊 Diapositiva Final</h4>
                     <div class="slide-content">
-                        <p><strong>📁 ¡Listos para Construir!</strong></p>
-                        <p class="highlight-text">Hoy diseñaron un sistema inteligente. La próxima clase... ¡le daremos vida!</p>
-                        <p>Guarda bien tu hoja de Manejo de Errores.</p>
+                        <p><strong>📁 ¡Misión Cumplida!</strong></p>
+                        <p class="highlight-text">El cerebro de su proyecto ya está afinado y listo para la acción. ¡En la próxima sesión lo pondremos a prueba frente a las Pirañas!</p>
                     </div>
                 </div>
             </div>
-
         </main>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
